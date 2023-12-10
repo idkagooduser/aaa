@@ -1,0 +1,59 @@
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+
+         
+         
+         
+.btn-grad {
+  background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  font-family: 'dancing script', cursive;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+   
+ 
+ 
+  .note{
+    font-size: 15px;
+    color:black;
+    text-shadow: 2px 2px 10px rgb(255, 255, 255);
+  }
+
+  body{
+    background-size: cover;
+  }
+
+  .div_speed{
+    float: left;
+  }
+  .div_volume{
+    float: right;
+  }
+  .div_speed_img,.div_volume_img{
+width:200px;
+border-radius:100px;
+  }
+
+  canvas{
+    border-radius: 15px;
+    margin-top: 180px;
+    border:3px red solid;
+  }
